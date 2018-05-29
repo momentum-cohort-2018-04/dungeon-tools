@@ -21,7 +21,7 @@ class App extends Component {
 
   render () {
     return (
-      <div>
+      <div className='container'>
         <h1>Roll some dice</h1>
         <div className='input-field'>
           <input type='text' placeholder='Enter dice to roll'
