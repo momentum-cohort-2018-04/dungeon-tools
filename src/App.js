@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import DiceGroup from './DiceGroup'
+import DiceResult from './components/DiceResult'
 
 class App extends Component {
   constructor () {
@@ -34,9 +35,10 @@ class App extends Component {
             Roll those dice
           </button>
         </div>
-        {this.state.results.map(result => (
-          <p>{result.dice} -> {result.roll.sum}</p>
-        ))}
+        {this.state.results.map((result, i) =>
+          // Why did I subtract here?
+          <DiceResult key={this.state.results.length - i} dice={result.dice} roll={result.roll} />
+        )}
       </div>
     )
   }

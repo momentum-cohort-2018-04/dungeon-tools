@@ -1,0 +1,10 @@
+.DiceResult .Die {
+  text-align: center;
+  display: inline-block;
+  width: 60px;
+}
+
+.DiceResult--datetime {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
