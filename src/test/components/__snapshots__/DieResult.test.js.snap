@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders to a snapshot 1`] = `
+<div
+  className="DieResult"
+>
+  <img
+    src="d6.png"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+  <div>
+    4
+  </div>
+</div>
+`;

@@ -28,8 +28,6 @@ function dieImg (size) {
 
 function DieResult (props) {
   const {sides, roll} = props
-  console.log('sides', sides)
-  console.log('roll', roll)
   return (
     <div className='DieResult'>
       <img src={dieImg(sides)} style={{width: '100%'}} />
